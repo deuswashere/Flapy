@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      rotbird_transparent_0: -7225241174793500684
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
