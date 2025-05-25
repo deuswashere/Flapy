@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 1fff06a1c44028f46baa8c828466737b
+guid: d7a971c63782d224bad8def54ed8bdc3
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5579062775716525196
-    second: "ku\u015Fpp_G\xF6rsel_2025-05-12_saat_00.44.18_d2ce31ab-removebg-preview_0"
+      213: -3841060290475290432
+    second: bombardino_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -97,19 +97,6 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
     buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -126,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "ku\u015Fpp_G\xF6rsel_2025-05-12_saat_00.44.18_d2ce31ab-removebg-preview_0"
+      name: bombardino_0
       rect:
         serializedVersion: 2
-        x: 1
-        y: 7
-        width: 498
-        height: 490
+        x: 15
+        y: 84
+        width: 557
+        height: 278
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 47bcfc1f6ff2392b0800000000000000
-      internalID: -5579062775716525196
+      spriteID: 0c09c514400d1bac0800000000000000
+      internalID: -3841060290475290432
       vertices: []
       indices: 
       edges: []
@@ -160,8 +147,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      "ku\u015Fpp_G\xF6rsel_2025-05-12_saat_00.44.18_d2ce31ab-removebg-preview_0": -5579062775716525196
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
