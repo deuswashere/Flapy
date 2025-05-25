@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: ee03364cf622d0e40b6cc3dde7edc9d9
+guid: e4e3e8834fad9434593b35f264d72cef
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4747536754430747766
-    second: gameovertransparent_0
+      213: -5319659575277207620
+    second: bombardinochar_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: gameovertransparent_0
+      name: bombardinochar_0
       rect:
         serializedVersion: 2
-        x: 76
-        y: 212
-        width: 868
-        height: 608
+        x: 0
+        y: 75
+        width: 1498
+        height: 848
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 674a4fd4683a2e140800000000000000
-      internalID: 4747536754430747766
+      spriteID: cbfb8911dc5cc26b0800000000000000
+      internalID: -5319659575277207620
       vertices: []
       indices: 
       edges: []
@@ -147,8 +147,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      gameovertransparent_0: 4747536754430747766
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,10 +1,19 @@
 fileFormatVersion: 2
-guid: ee03364cf622d0e40b6cc3dde7edc9d9
+guid: a5c21b2b42b817e438ed2048a4650109
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4747536754430747766
-    second: gameovertransparent_0
+      213: -8959764545704387287
+    second: bombombinichar_0
+  - first:
+      213: 2212730278485026492
+    second: bombombinichar_1
+  - first:
+      213: -3969086508002413220
+    second: bombombinichar_2
+  - first:
+      213: -7808439490811626595
+    second: bombombinichar_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +122,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: gameovertransparent_0
+      name: bombombinichar_0
       rect:
         serializedVersion: 2
-        x: 76
-        y: 212
-        width: 868
-        height: 608
+        x: 0
+        y: 0
+        width: 1526
+        height: 1024
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +137,74 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 674a4fd4683a2e140800000000000000
-      internalID: 4747536754430747766
+      spriteID: 92d9626dd9588a380800000000000000
+      internalID: -8959764545704387287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bombombinichar_1
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 991
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb6e9d8f67235be10800000000000000
+      internalID: 2212730278485026492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bombombinichar_2
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 983
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5578bf99d8fae8c0800000000000000
+      internalID: -3969086508002413220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bombombinichar_3
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 976
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9b7a0c67a9d2a390800000000000000
+      internalID: -7808439490811626595
       vertices: []
       indices: 
       edges: []
@@ -147,8 +222,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      gameovertransparent_0: 4747536754430747766
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

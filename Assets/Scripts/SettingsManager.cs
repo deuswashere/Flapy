@@ -6,75 +6,44 @@ public class SettingsManager : MonoBehaviour
 {
     [Header("UI Referanslarý")]
     public Slider volumeSlider;    // Inspector’da Slider_Volume atayýn
-    public Toggle musicToggle;     // Inspector’da Toggle_Music atayýn
 
     [Header("Audio Mixer")]
     public AudioMixer gameAudioMixer;   // Inspector’dan GameAudioMixer atayýn
 
-    // Exposed parameter isimleri
+    // Exposed parameter isimleri (AudioMixer’da tam olarak bu adlarla expose ettiðiniz parametreler)
     private const string MUSIC_PARAM = "MusicVolume";
     private const string SFX_PARAM = "SfxVolume";
 
-    // PlayerPrefs anahtarlarý
+    // PlayerPrefs anahtarý
     private const string PREF_VOLUME = "prefVolume";
-    private const string PREF_MUSIC_ON = "prefMusicOn";
 
     void Start()
     {
-        // Önceki ayarlarý yükle (varsayýlan: ses = 1, müzik açýk)
+        // Önceki ayarý yükle (varsayýlan: 1)
         float savedVol = PlayerPrefs.GetFloat(PREF_VOLUME, 1f);
-        bool savedMusicOn = PlayerPrefs.GetInt(PREF_MUSIC_ON, 1) == 1;
-
         volumeSlider.value = savedVol;
-        musicToggle.isOn = savedMusicOn;
 
         // Ýlk uygulama
         ApplyVolume(savedVol);
-        ApplyMusicToggle(savedMusicOn);
 
-        // Dinleyicileri baðla
+        // Slider deðiþimlerini dinle
         volumeSlider.onValueChanged.AddListener(OnVolumeChanged);
-        musicToggle.onValueChanged.AddListener(OnMusicToggleChanged);
     }
 
     void OnVolumeChanged(float value)
     {
+        // Yeni deðeri kaydet ve uygula
         PlayerPrefs.SetFloat(PREF_VOLUME, value);
         ApplyVolume(value);
     }
 
-    void OnMusicToggleChanged(bool isOn)
-    {
-        PlayerPrefs.SetInt(PREF_MUSIC_ON, isOn ? 1 : 0);
-        ApplyMusicToggle(isOn);
-    }
-
     void ApplyVolume(float sliderValue)
     {
-        // Slider deðeri [0.0001,1] aralýðýnda olmalý
+        // [0.0001,1] aralýðýnda logaritmik desibel dönüþümü
         float dB = Mathf.Log10(Mathf.Clamp(sliderValue, 0.0001f, 1f)) * 20f;
 
-        // SFX kanalý her zaman slider ile kontrol edilir
+        // Hem Music hem SFX parametrelerine uygula
+        gameAudioMixer.SetFloat(MUSIC_PARAM, dB);
         gameAudioMixer.SetFloat(SFX_PARAM, dB);
-
-        // Music kanalý yalnýzca toggle açýkken slider deðerini alýr
-        if (musicToggle.isOn)
-            gameAudioMixer.SetFloat(MUSIC_PARAM, dB);
-    }
-
-    void ApplyMusicToggle(bool isOn)
-    {
-        if (isOn)
-        {
-            // Toggle açýldýysa slider’daki mevcut deðeri uygula
-            float sliderValue = volumeSlider.value;
-            float dB = Mathf.Log10(Mathf.Clamp(sliderValue, 0.0001f, 1f)) * 20f;
-            gameAudioMixer.SetFloat(MUSIC_PARAM, dB);
-        }
-        else
-        {
-            // Toggle kapatýldýysa müziði tamamen sessize al
-            gameAudioMixer.SetFloat(MUSIC_PARAM, -80f);
-        }
     }
 }
