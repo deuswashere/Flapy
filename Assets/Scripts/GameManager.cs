@@ -49,7 +49,7 @@ public class GameManager : MonoBehaviour
 
         // Yüksek skoru ekranda göster
         if (highScoreText != null)
-            highScoreText.text = "Rekor: " + highScore.ToString();
+            highScoreText.text = "High Score: " + highScore.ToString();
         else
             Debug.LogWarning("highScoreText atamasý yapýlmamýþ! Inspector'da atamayý unutma.");
 
@@ -87,7 +87,7 @@ public class GameManager : MonoBehaviour
 
             // Yüksek skoru ekranda güncelle
             if (highScoreText != null)
-                highScoreText.text = "Rekor: " + highScore.ToString();
+                highScoreText.text = "High Score: " + highScore.ToString();
         }
     }
 
