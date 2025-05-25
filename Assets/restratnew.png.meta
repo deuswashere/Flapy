@@ -1,13 +1,10 @@
 fileFormatVersion: 2
-guid: 30c0e5bde158f39478874656e8210965
+guid: 654d424baa72a304ebe54f6c97873e3c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8430585021857233999
-    second: musicbuttontransparent_0
-  - first:
-      213: 6228708027093611752
-    second: musicbuttontransparent_1
+      213: 4649467496592678569
+    second: restratnew_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -116,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: musicbuttontransparent_0
+      name: restratnew_0
       rect:
         serializedVersion: 2
-        x: 114
-        y: 87
-        width: 778
-        height: 241
+        x: 137
+        y: 282
+        width: 1199
+        height: 477
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -131,30 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1b3887bf69b800b80800000000000000
-      internalID: -8430585021857233999
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: musicbuttontransparent_1
-      rect:
-        serializedVersion: 2
-        x: 187
-        y: 324
-        width: 651
-        height: 646
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8e4f98413f0d07650800000000000000
-      internalID: 6228708027093611752
+      spriteID: 9ae9121ed0a368040800000000000000
+      internalID: 4649467496592678569
       vertices: []
       indices: 
       edges: []
@@ -172,9 +147,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      musicbuttontransparent_0: -8430585021857233999
-      musicbuttontransparent_1: 6228708027093611752
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
