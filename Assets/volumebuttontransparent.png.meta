@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: ec2d7a3b9ef811743a4264125f0405e3
+guid: b2ec0be55f4de964e95e6d11d8f60521
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1738139480146356650
-    second: ChatGPT Image 16 May 2025 16_21_37_0
+      213: 5526117538527982657
+    second: volumebuttontransparent_0
+  - first:
+      213: -768950978093550430
+    second: volumebuttontransparent_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -109,30 +112,17 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ChatGPT Image 16 May 2025 16_21_37_0
+      name: volumebuttontransparent_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1024
-        height: 1024
+        x: 174
+        y: 325
+        width: 667
+        height: 650
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +131,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6565bc31a53e0e7e0800000000000000
-      internalID: -1738139480146356650
+      spriteID: 14434076f96b0bc40800000000000000
+      internalID: 5526117538527982657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: volumebuttontransparent_1
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 89
+        width: 861
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a47b05d8232455f0800000000000000
+      internalID: -768950978093550430
       vertices: []
       indices: 
       edges: []
@@ -160,8 +172,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      ChatGPT Image 16 May 2025 16_21_37_0: -1738139480146356650
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

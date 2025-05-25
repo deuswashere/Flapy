@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: ec2d7a3b9ef811743a4264125f0405e3
+guid: 737b49c8af041ca4897c64ad0e310eb6
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1738139480146356650
-    second: ChatGPT Image 16 May 2025 16_21_37_0
+      213: -7464205084177258913
+    second: "WhatsApp G\xF6rsel 2025-05-20 saat 17.00.54_a379272e_0"
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ChatGPT Image 16 May 2025 16_21_37_0
+      name: "WhatsApp G\xF6rsel 2025-05-20 saat 17.00.54_a379272e_0"
       rect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 1024
-        height: 1024
+        height: 1536
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6565bc31a53e0e7e0800000000000000
-      internalID: -1738139480146356650
+      spriteID: f5623f2e501d96890800000000000000
+      internalID: -7464205084177258913
       vertices: []
       indices: 
       edges: []
@@ -161,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      ChatGPT Image 16 May 2025 16_21_37_0: -1738139480146356650
+      "WhatsApp G\xF6rsel 2025-05-20 saat 17.00.54_a379272e_0": -7464205084177258913
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
