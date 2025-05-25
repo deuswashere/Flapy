@@ -10,7 +10,7 @@ public class GameManager : MonoBehaviour
     public TMP_Text scoreText;
     public GameObject gameOverUI;
 
-    [HideInInspector] public bool isGameOver = false; // dýþarýdan eriþilebilir
+    private bool isGameOver = false;
 
     void Awake()
     {
@@ -35,6 +35,7 @@ public class GameManager : MonoBehaviour
         if (gameOverUI != null)
         {
             gameOverUI.SetActive(false);
+            Debug.Log("GameOver panel kapatýldý.");
         }
         else
         {
@@ -49,8 +50,8 @@ public class GameManager : MonoBehaviour
         score++;
         if (scoreText != null)
             scoreText.text = score.ToString();
+        FindObjectOfType<SoundManager>().PlaySahur();
 
-        FindObjectOfType<SoundManager>()?.PlaySahur();
     }
 
     public void GameOver()
@@ -63,13 +64,21 @@ public class GameManager : MonoBehaviour
         if (gameOverUI != null)
         {
             gameOverUI.SetActive(true);
+            Debug.Log("Game Over panel açýldý.");
+        }
+        else
+        {
+            Debug.LogWarning("GameOverUI atanmadýðý için panel açýlamadý.");
         }
 
-        FindObjectOfType<SoundManager>()?.PlayOhNo();
+        Debug.Log("Game Over oldu");
+        FindObjectOfType<SoundManager>().PlayOhNo();
+
     }
 
     public void RestartGame()
     {
+        Debug.Log("Restart çaðrýldý");
         Time.timeScale = 1f;
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
