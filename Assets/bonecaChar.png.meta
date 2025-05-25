@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      bonecaChar_0: -4342408293031810580
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
