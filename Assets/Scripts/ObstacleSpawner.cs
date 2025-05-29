@@ -4,7 +4,7 @@ public class ObstacleSpawner : MonoBehaviour
 {
     public GameObject obstaclePrefab;
     public float spawnRate = 3f;
-    public float minY = -2f, maxY = 5f;
+    public float minY = -2f, maxY = 4f;
 
     private float timer = 0f;
 

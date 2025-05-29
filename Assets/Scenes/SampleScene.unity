@@ -1306,7 +1306,7 @@ PolygonCollider2D:
       - {x: 1.15, y: -1.22}
       - {x: 1.18, y: -1.14}
       - {x: 1.17, y: -1.1}
-      - {x: 1.06, y: -1.14}
+      - {x: 1.7765403, y: -0.42249244}
       - {x: 1.1, y: -0.9}
       - {x: 1.18, y: -0.89}
       - {x: 1.25, y: -0.79999995}
@@ -1434,7 +1434,7 @@ PolygonCollider2D:
       - {x: 1.3399999, y: -0.83}
       - {x: 1.4, y: -0.83}
       - {x: 1.4, y: -0.45}
-      - {x: 1.29, y: -0.32}
+      - {x: 2.190269, y: -0.22523442}
     - - {x: -0.22999999, y: 1.4399999}
       - {x: -0.11, y: 1.51}
       - {x: -0.12, y: 1.51}
@@ -1498,7 +1498,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.15616918, y: 0.013538003}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -1508,7 +1508,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 4.98, y: 4.9}
+  m_Size: {x: 5.292338, y: 2.9505465}
   m_EdgeRadius: 0
 --- !u!114 &534756071
 MonoBehaviour:
@@ -1524,9 +1524,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   characterSprites:
   - {fileID: -3841060290475290432, guid: d7a971c63782d224bad8def54ed8bdc3, type: 3}
-  - {fileID: -3227478477137851847, guid: 8451be4c5ae279a45ad14d8d6cdb74b2, type: 3}
+  - {fileID: -6252450725066503811, guid: 888a39fa3a191f346808a613ded344c9, type: 3}
   - {fileID: 7530642129099925396, guid: 00dc9005dbc489044b541ea8dff9e2c9, type: 3}
-  - {fileID: 2012653062516536088, guid: 90debf2f90b2a5e4eb6ad7be46f5b5c5, type: 3}
+  - {fileID: -5078621659010458389, guid: 46dab2339d7f43d409a9434b03b75550, type: 3}
 --- !u!1 &617180624
 GameObject:
   m_ObjectHideFlags: 0
