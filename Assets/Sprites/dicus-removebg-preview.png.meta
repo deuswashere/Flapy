@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 863f154ca5ce8e04496073740430b12b
+guid: 46dab2339d7f43d409a9434b03b75550
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 691490267252577439
-    second: sahursopa_0
+      213: -5078621659010458389
+    second: dicus-removebg-preview_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: sahursopa_0
+      name: dicus-removebg-preview_0
       rect:
         serializedVersion: 2
-        x: 149
-        y: 21
-        width: 188
-        height: 474
+        x: 70
+        y: 28
+        width: 328
+        height: 453
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f94da310cbaa89900800000000000000
-      internalID: 691490267252577439
+      spriteID: bec9312428c1589b0800000000000000
+      internalID: -5078621659010458389
       vertices: []
       indices: 
       edges: []
@@ -147,8 +147,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      sahursopa_0: 691490267252577439
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
