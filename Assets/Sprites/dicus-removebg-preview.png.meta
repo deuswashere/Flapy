@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      dicus-removebg-preview_0: -5078621659010458389
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
