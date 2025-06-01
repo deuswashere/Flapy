@@ -1,0 +1,28 @@
+Privacy Policy
+Rotbird: A Brainrot Adventure is committed to protecting your privacy. This Privacy Policy explains how we handle any information related to the use of our game.
+
+Information Collection and Use
+Rotbird: A Brainrot Adventure does not collect any personal information from its users.
+
+However, the game uses third-party services that may collect information used to identify you. Please refer to the privacy policies of these third-party service providers for more information:
+
+Google Analytics
+
+Google Ads (AdMob)
+
+Purpose of Data Use
+We do not collect or store any personal data ourselves. Any data collected by third-party services is used solely for analytics and advertising purposes to improve user experience and app performance.
+
+Third-Party Services
+The game uses the following third-party services:
+
+Google Analytics: to analyze app usage statistics.
+
+Google Ads (AdMob): to display in-game advertisements.
+
+These services have their own privacy policies regarding how they handle your data.
+
+Contact Us
+If you have any questions or concerns about this Privacy Policy, please contact us at:
+
+📧 ent.whiplash@gmail.com
